@@ -90,8 +90,8 @@ The agent performed actions acording to this table:
 | 2 | 791 |
 | 3 | 20996 |
 
-![Training image](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png)
-![Training image 2](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training2.png)
+![Training image](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png =320x240)
+![Training image 2](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training2.png =320x240)
 
 ## Apendices
 
