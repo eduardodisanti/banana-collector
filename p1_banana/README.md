@@ -102,18 +102,18 @@ banana_raytracing_eds.pt
 ### Running the play_banana
 In the 7th cell the parameters can be adjusted, by default it runs 10 times with 20000 steps.
 An example of results :
-*Start game...*
-Total Reward: 13.0
-Total Reward: 11.0
-Total Reward: 15.0
-Total Reward: 15.0
-Total Reward: 20.0
-Total Reward: 19.0
-Total Reward: 18.0
-Total Reward: 19.0
-Total Reward: 10.0
-Total Reward: 14.0
-*Game Over*
+*Start game...*<br/>
+Total Reward: 13.0<br/>
+Total Reward: 11.0<br/>
+Total Reward: 15.0<br/>
+Total Reward: 15.0<br/>
+Total Reward: 20.0<br/>
+Total Reward: 19.0<br/>
+Total Reward: 18.0<br/>
+Total Reward: 19.0<br/>
+Total Reward: 10.0<br/>
+Total Reward: 14.0<br/>
+*Game Over*<br/>
 
 ### Setting up the environment
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
