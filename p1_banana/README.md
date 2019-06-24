@@ -80,7 +80,17 @@ The agent performed actions acording to this table:
 | 2 | 791 |
 | 3 | 20996 |
 
-(image)
+|   | With the above hyperparameters, the average score of the last 100 episodes reached 13.03 after 321 episodes.
+The agent performed actions acording to this table:
+
+| Action | Frequency |
+| ------ | --------- |
+| 0 | 76283 |
+| 1 | 3030 |
+| 2 | 791 |
+| 3 | 20996 |
+
+![Traing results 1](With%20the%20above%20hyperparameters,%20the%20average%20score%20of%20the%20last%20100%20episodes%20reached%2013.03%20after%20321%20episodes.%20The%20agent%20performed%20actions%20acording%20to%20this%20table:%20%20%7C%20Action%20%7C%20Frequency%20%7C%20%7C%20------%20%7C%20---------%20%7C%20%7C%200%20%7C%2076283%20%7C%20%7C%201%20%7C%203030%20%7C%20%7C%202%20%7C%20791%20%7C%20%7C%203%20%7C%2020996%20%7C%20%20%28image%29https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png%20https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png)![Training results](With%20the%20above%20hyperparameters,%20the%20average%20score%20of%20the%20last%20100%20episodes%20reached%2013.03%20after%20321%20episodes.%20The%20agent%20performed%20actions%20acording%20to%20this%20table:%20%20%7C%20Action%20%7C%20Frequency%20%7C%20%7C%20------%20%7C%20---------%20%7C%20%7C%200%20%7C%2076283%20%7C%20%7C%201%20%7C%203030%20%7C%20%7C%202%20%7C%20791%20%7C%20%7C%203%20%7C%2020996%20%7C%20%20%28image%29https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png%20https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training2.png)
 
 ## Apendices
 ### Setting up the environment
