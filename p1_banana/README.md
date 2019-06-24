@@ -37,10 +37,9 @@ The agent can perform four actions:
 
  - On the Jupiter notebook, 
 		 Open the Navigation notebook and run all cells 
-		 During the training a graph will be displayed and updated at the end of every episode.  (img)
-		 
-			or
-- run the train_agent_headless.py using the command *python  train_agent_headless.py*, 
+		 During the training a graph will be displayed, updated at the end of every episode. <br/>
+     or<br/>
+- run the train_agent_headless.py using the command *python  train_agent_headless.py* <br/>
 
 The training will stop when the agent reach an average of 13 on las 100 scenarios. (Will happen around 340 episodes) 
 
@@ -71,15 +70,6 @@ Chossen learning rate **5e-4**
     -   Start          : 1
     -   Minumin.  : 0.01
     -   Decay rate: 0.995
-    
-With the above hyperparameters, the average score of the last 100 episodes reached 13.03 after 321 episodes.
-The agent performed actions acording to this table:
-| Action | Frequency |
-| --|---|
-| 0 | 76283 |
-| 1 | 3030 |
-| 2 | 791 |
-| 3 | 20996 |
 
 |   | With the above hyperparameters, the average score of the last 100 episodes reached 13.03 after 321 episodes.
 The agent performed actions acording to this table:
@@ -96,8 +86,15 @@ The agent performed actions acording to this table:
 
 ## Apendices
 
+### Future work
+One behaiviour observed during training and playing, wich is coherent with, the high bias of DQN and the action frequencies shown, is the poor capacity for the agent to turn right, turning left was better learned.<br>
+The agent perform well, but in the future may worth to:
+ - increase the number of neurons in the hidden layers
+ - Use prioritized experience play
+ - Use dueling DQN
+
 ### Name and location of the trained model
-banana_raytracing_eds.pt
+**banana_raytracing_eds.pt** located in the main folder
 
 ### Running the play_banana
 In the 7th cell the parameters can be adjusted, by default it runs 10 times with 20000 steps.
