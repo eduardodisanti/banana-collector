@@ -1,12 +1,13 @@
 # Bananna colector
-![Trained agent](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/banana_collector.gif =320x240)
+
+<center>
+	<img src="https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/banana_collector.gif" alt="drawing" width="480"/>
+</center>
 
 ### Introduction
 
 This project shows how to train the Banana colector in an Udacity modified (from Unity's) Bannana-colector environment.
 The goal of the agent is to collect as many yellow bananas while avoiding blue bananas.
-
-![Trained Agent][image1]
 
 A reward of **+1** is provided for collecting a yellow banana, and a reward of **-1** is provided for collecting a blue banana.  There is no reward, positive or negative for moving or time.
 The environment is a square world and the state space has 37 dimensions including the agent speed and a [ray-based]( https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) perception of objects arround the agent forward direction.
