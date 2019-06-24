@@ -90,9 +90,30 @@ The agent performed actions acording to this table:
 | 2 | 791 |
 | 3 | 20996 |
 
-![Traing results 1]https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png
-![Training results 2]https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training2.png
+![Training image](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png)
+![Training image 2](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training2.png)
+
 ## Apendices
+
+### Name and location of the trained model
+banana_raytracing_eds.pt
+
+### Running the play_banana
+In the 7th cell the parameters can be adjusted, by default it runs 10 times with 20000 steps.
+An example of results :
+*Start game...*
+Total Reward: 13.0
+Total Reward: 11.0
+Total Reward: 15.0
+Total Reward: 15.0
+Total Reward: 20.0
+Total Reward: 19.0
+Total Reward: 18.0
+Total Reward: 19.0
+Total Reward: 10.0
+Total Reward: 14.0
+*Game Over*
+
 ### Setting up the environment
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
