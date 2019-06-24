@@ -73,6 +73,7 @@ Chossen learning rate **5e-4**
     - 
 With the above hyperparameters, the average score of the last 100 episodes reached 13.03 after 321 episodes.
 The agent performed actions acording to this table:
+
 | Action | Frequency |
 | --|---|
 | 0 | 76283 |
