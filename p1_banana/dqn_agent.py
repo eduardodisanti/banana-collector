@@ -35,8 +35,8 @@ class Agent():
         self.UPDATE_EVERY = update_every
 
         # Q-Network
-        self.qnetwork_local = QNetwork(state_size, action_size, seed).to(device)
-        self.qnetwork_target = QNetwork(state_size, action_size, seed).to(device)
+        self.qnetwork_local  = QNetwork(state_size, action_size, seed, fc1_neurons=64, fc2_neurons=64).to(device)
+        self.qnetwork_target = QNetwork(state_size, action_size, seed, fc1_neurons=64, fc2_neurons=64).to(device)
         self.optimizer = optim.Adam(self.qnetwork_local.parameters(), lr=self.LR)
 
         # Replay memory
