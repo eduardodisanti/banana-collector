@@ -29,7 +29,9 @@ The agent can perform four actions:
 ***play_banana.ipynb***
 	A notebook to see the agent in action.
 ***train_agent_headless.py***
-	Contains code for training the agent that can be run standalone .
+	Contains code for training the agent that can be run standalone.
+***Report.pdf***
+	Its a resume of the algorithm and model performance.
 
 ### Training the agent
 
@@ -76,10 +78,10 @@ The agent performed actions acording to this table:
 
 | Action | Frequency |
 | ------ | --------- |
-| 0 | 76283 |
-| 1 | 3030 |
-| 2 | 791 |
-| 3 | 20996 |
+| 0 | 57234 |
+| 1 | 25189 |
+| 2 | 9690 |
+| 3 | 4187 |
 
 ![Training image](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training.png)
 ![Training image 2](https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/training2.png)
