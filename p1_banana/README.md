@@ -1,7 +1,7 @@
 # Bananna colector
 
 <center>
-	<img src="https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/banana_collector.gif" alt="drawing" width="480"/>
+	<img src="https://github.com/eduardodisanti/deep_reinforcement_learning_nd/blob/master/p1_banana/media/banana_collector.gif" alt="drawing" width="480"/>
 </center>
 
 ### Introduction
